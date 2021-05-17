@@ -165,8 +165,7 @@ def main():
     error = error / len(testOutputs)
     print("prediction error (manual): ", error)
 
-    # error = mean_squared_error(testOutputs, computedTestOutputs)
-    # print("prediction error (tool): ", error)
+  
     print('\n')
 
         

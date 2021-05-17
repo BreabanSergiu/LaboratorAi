@@ -76,7 +76,7 @@ def writeToFile(filename,numberOfVisitedCitiesAll,pathAll,sumaAll,numberOfVisite
 
 def main():
     matrix = []
-    filenameIn = "hard_01_tsp.txt"
+    filenameIn = "easy_01_tsp.txt"
     filenameOut = "out.txt"
     numberOfCities,sourceCity,destinationCity =  readFromFile(matrix,filenameIn)
     minn=32000

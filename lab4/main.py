@@ -59,7 +59,9 @@ def readFromTsp(filename):
 
 
 
-numberOfCities,net = readFromTsp('bays29.tsp')
+# numberOfCities,net = readFromTsp('bays29.tsp')
+# numberOfCities,net = readFromTsp('ulysses16.tsp')
+numberOfCities,net = readFromFile('easy_01_tsp.txt')
 
 #parametri genetic algorithm
 #300 de cromozomi in populatie 
